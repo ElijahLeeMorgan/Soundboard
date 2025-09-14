@@ -2,7 +2,7 @@
 
 Super quick dummy project. Made in under an hour.
 
-[![demo](./img/thumbnail.png)](https://github.com/ElijahLeeMorgan/Soundboard/blob/main/video/demo.mp4)
+[![demo](./img/thumbnail.png)](https://raw.githubusercontent.com/ElijahLeeMorgan/Soundboard/main/video/demo.mp4)
 
 Remember, not all projects have to be good, special, or refined. \
 Just have fun building things!
