@@ -1,0 +1,39 @@
+body {
+	background: #222;
+	color: #fff;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+.soundboard {
+	display: grid;
+	grid-template-columns: repeat(3, 120px);
+	grid-template-rows: repeat(3, 120px);
+	gap: 24px;
+}
+.sound-btn {
+	background: #333;
+	border: none;
+	border-radius: 16px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: background 0.2s;
+	padding: 0;
+	outline: none;
+}
+.sound-btn:hover {
+	background: #444;
+}
+.sound-btn img {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	border-radius: 8px;
+	pointer-events: none;
+}
